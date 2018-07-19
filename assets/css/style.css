@@ -1,0 +1,51 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+}
+
+.banner img {
+  width: 650px;
+  height: auto;
+}
+
+.container {
+  font-family: 'Krona One', sans-serif;
+  color: #ffff;
+  opacity: 0.5;
+  padding: 30px;
+  margin: 40px auto;
+  box-sizing: border-box;
+  border: 1px solid #ffff;
+  margin-bottom: 100px;
+}
+
+
+#all-letters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letters {
+  display: inline-block;
+  padding: 10px;
+  color: #333;
+  font-size: 50px;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  border-bottom: 3px solid red;
+  margin-right: 10px;
+  text-align: center;
+}
+
+
+#lettersGuessed {
+  color: red;
+  text-transform: uppercase;
+}
